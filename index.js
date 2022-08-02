@@ -1,6 +1,6 @@
 const fs = require('fs');
 const { Client, Collection, Intents, DiscordAPIError } = require('discord.js');
-const { token } = ${{ secrets.SecretName}}
+const { token } = ${{ secrets.token}}
 
 const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.DIRECT_MESSAGES] });
 
